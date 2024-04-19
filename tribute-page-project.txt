@@ -1,0 +1,86 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+</html>
+  <main id="main">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">Tribute Page Project#10</title><!--Its All about Yoda-->
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <div id="img-div">
+      <div id="tribute-info">Tribute to Grandmaster Yoda</div>
+      <img id="image" src="https://avatars.githubusercontent.com/u/147212509?v=4" alt="Yoda"/>
+       <figcaption id="img-caption">The most wise of Jedi, GrandMaster Yoda.</figcaption>
+      </div>
+      <p id="why-tribute"><ul>Why we should give GrandMaster Yoda our Tribute!
+        <li id="list">Yoda died beleiving The Chosen One would bring balance to the Galaxy.</li>
+        <li id="list">Yoda fought in many wars through his 900+ yr life.</li>
+        <li id="list">Yoda trained many great Jedi we know today.</li>
+        </ul>
+      </p>
+    <p id="tribute-para">We love Yoda <a href="https://www.bing.com/search?q=yoda+facts&form=ANNTH1&refig=ed513bd7bf124dee9aa513c202b4f160&pc=U531" target="_blank" id="tribute-link" value="tribute-link" >here are Yoda Facts </a>
+    </p>
+    </div>
+  </body>
+  </main>
+
+** end of undefined **
+
+** start of undefined **
+
+#image {
+  height: auto;
+  max-width: 100%;
+  display: block;
+  align-items: center;
+}
+
+#tribute-link {
+  color: orange;
+}
+
+main {
+  text-align: center;
+  background-color: green;
+  height: 100%;
+  width: 100%;
+  color: #aaFFaa
+}
+
+#tribute-info {
+  color: #000000;
+  font-size: 50px;
+  padding-bottom: 40px;
+  border-bottom: 3px solid #aaFFaa;
+  padding-top: 30px
+}
+
+#img-caption {
+ padding: 0 20 20 0;
+ text-align: left;
+}
+
+#list {
+  padding: 10px 5px 17px 5px;
+  font-size: 20px;
+  color: #aaFFaa;
+  align: left
+  
+}
+
+ul {
+  text-align: left;
+  font-size: 30px;
+  color: black;
+  margin: 0 0 0 5 
+}
+
+
+
+
+** end of undefined **
+
